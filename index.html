@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO-LIST</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="input-container">
+      <h1>TO-DO-LIST</h1>
+      <input type="text" id="text" placeholder="Type the task..." />
+      <button id="add">Add Task</button>
+      <div class="controls">
+        <button id="reset">Reset</button>
+        <select id="filter">
+          <option value="all">ALL</option>
+          <option value="active">Active</option>
+          <option value="completed">Completed</option>
+        </select>
+      </div>
+    </div>
+    <div class="task-container">
+      <ul id="task-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
